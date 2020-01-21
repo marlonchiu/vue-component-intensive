@@ -17,6 +17,9 @@ import ComponentA from '@/components/component-a.vue';
 
 export default {
   name: 'home',
+  // provide: {
+  //   user: 'Marlon'
+  // },
   methods: {
     handleClick(data) {
       console.log(data);
