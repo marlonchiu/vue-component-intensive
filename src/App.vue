@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+      <router-link to="/">基础：Vue.js 组件的三个 API：prop、event、slot</router-link>
+      <router-link to="/chapter-three">组件的通信 1：provide / inject</router-link>
+      <router-link to="/chapter-four">组件的通信 2：派发与广播——自行实现 dispatch 和 broadcast 方法</router-link>
     </div>
     <router-view/>
   </div>
@@ -51,6 +52,8 @@ export default {
 
 #nav {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 
   a {
     font-weight: bold;
