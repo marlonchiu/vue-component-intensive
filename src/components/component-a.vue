@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  name: 'componentA',
   // inject: ['user'],
   inject: ['app'],
   data() {
