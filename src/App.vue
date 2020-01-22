@@ -4,6 +4,7 @@
       <router-link to="/">基础：Vue.js 组件的三个 API：prop、event、slot</router-link>
       <router-link to="/chapter-three">组件的通信 1：provide / inject</router-link>
       <router-link to="/chapter-four">组件的通信 2：派发与广播——自行实现 dispatch 和 broadcast 方法</router-link>
+      <router-link to="/chapter-five">实战 1：具有数据校验功能的表单组件——Form</router-link>
     </div>
     <router-view/>
   </div>

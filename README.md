@@ -3,9 +3,11 @@
 ## 项目简介
 
 > [掘金小册 - Vue.js 组件精讲](https://juejin.im/book/5bc844166fb9a05cd676ebca)
+> [项目源码 vue-component-book](https://github.com/icarusion/vue-component-book)
 >
 > 【第4节.组件的通信 2：派发与广播——自行实现 dispatch 和 broadcast 方法】 扩展文章
 > [掘金博客 -- Vue读懂这篇，进阶高级](https://juejin.im/post/5e2453e8518825366e13f59a)
+> [一份超级详细的Vue-cli3.0使用教程](https://juejin.im/post/5bdec6e8e51d4505327a8952)
 
 ## 获取的开发日常知识
 
@@ -73,3 +75,4 @@ export default {
 
 
 
+* [表单校验 async-validator](https://github.com/yiminghe/async-validator)
