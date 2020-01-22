@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="chapter-three">
     <component-a ref="comA"></component-a>
   </div>
 </template>
@@ -9,7 +9,7 @@
 import ComponentA from '@/components/component-a.vue';
 
 export default {
-  name: 'home',
+  name: 'chapterThree',
   // provide: {
   //   user: 'Marlon'
   // },
