@@ -25,14 +25,12 @@ const store = new Vuex.Store({
 })
 ```
 
-
-
 * 自定义实现 dispatch 和 broadcast 方法
 
 ```javascript
 注：本节部分代码参考 [iView](https://github.com/iview/iview/blob/2.0/src/mixins/emitter.js)。
 
-// src\mixins\emitter.js
+// src/mixins/emitter.js
 
 function broadcast (componentName, eventName, params) {
   this.$children.forEach(child => {
@@ -72,7 +70,5 @@ export default {
   }
 }
 ```
-
-
 
 * [表单校验 async-validator](https://github.com/yiminghe/async-validator)
