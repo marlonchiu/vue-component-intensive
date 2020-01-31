@@ -6,6 +6,7 @@
       <router-link to="/chapter-four">组件的通信 2：派发与广播——自行实现 dispatch 和 broadcast 方法</router-link>
       <router-link to="/chapter-five">实战 1：具有数据校验功能的表单组件——Form</router-link>
       <router-link to="/chapter-six">组件的通信 3：找到任意组件实例——findComponents 系列方法</router-link>
+      <router-link to="/chapter-seven">实战 2：组合多选框组件——CheckboxGroup & Checkbox</router-link>
     </div>
     <router-view/>
   </div>
@@ -56,14 +57,14 @@ export default {
   padding: 30px;
   display: flex;
   flex-direction: column;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
