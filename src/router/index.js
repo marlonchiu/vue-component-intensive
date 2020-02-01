@@ -8,6 +8,7 @@ const chapterSix = () => import(/* webpackChunkName: "chapter-six" */ '../views/
 const chapterSeven = () => import(/* webpackChunkName: "chapter-seven" */ '../views/chapter-seven.vue')
 const chapterEight = () => import(/* webpackChunkName: "chapter-eight" */ '../views/chapter-eight.vue')
 const chapterNine = () => import(/* webpackChunkName: "chapter-nine" */ '../views/chapter-nine.vue')
+const chapterTen = () => import(/* webpackChunkName: "chapter-ten" */ '../views/chapter-ten.vue')
 
 Vue.use(VueRouter)
 
@@ -59,6 +60,11 @@ const routes = [
     path: '/chapter-nine',
     name: 'chapterNine',
     component: chapterNine
+  },
+  {
+    path: '/chapter-ten',
+    name: 'chapterTen',
+    component: chapterTen
   }
 ]
 

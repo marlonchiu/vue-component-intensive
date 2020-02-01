@@ -9,6 +9,7 @@
       <router-link to="/chapter-seven">实战 2：组合多选框组件——CheckboxGroup & Checkbox</router-link>
       <router-link to="/chapter-eight">Vue 的构造器——extend 与手动挂载——$mount</router-link>
       <router-link to="/chapter-nine">实战 3：动态渲染 .vue 文件的组件—— Display</router-link>
+      <router-link to="/chapter-ten">实战 4：全局提示组件——$Alert</router-link>
     </div>
     <router-view/>
   </div>
