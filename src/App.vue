@@ -7,6 +7,8 @@
       <router-link to="/chapter-five">实战 1：具有数据校验功能的表单组件——Form</router-link>
       <router-link to="/chapter-six">组件的通信 3：找到任意组件实例——findComponents 系列方法</router-link>
       <router-link to="/chapter-seven">实战 2：组合多选框组件——CheckboxGroup & Checkbox</router-link>
+      <router-link to="/chapter-eight">Vue 的构造器——extend 与手动挂载——$mount</router-link>
+      <router-link to="/chapter-nine">实战 3：动态渲染 .vue 文件的组件—— Display</router-link>
     </div>
     <router-view/>
   </div>
