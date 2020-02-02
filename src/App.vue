@@ -12,6 +12,9 @@
       <router-link to="/chapter-ten">实战 4：全局提示组件——$Alert</router-link>
       <router-link to="/chapter-eleven">更灵活的组件：Render 函数与 Functional Render</router-link>
       <router-link to="/chapter-twelve">实战 5：可用 Render 自定义列的表格组件——Table</router-link>
+      <router-link to="/chapter-thirteen">实战 6：可用 slot-scope 自定义列的表格组件——Table</router-link>
+      <router-link to="/table-render2">实战 6：可用 slot-scope 自定义列的表格组件 —— Table（方案 2）</router-link>
+      <router-link to="/table-slot2">实战 6：可用 slot-scope 自定义列的表格组件 —— Table（方案 3）</router-link>
     </div>
     <router-view/>
   </div>

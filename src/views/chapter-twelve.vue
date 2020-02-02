@@ -17,7 +17,7 @@
           {
             title: '姓名',
             key: 'name',
-            renderRow: (h, { row, index }) => {
+            render: (h, { row, index }) => {
               let edit;
 
               // 当前行为聚焦行时
@@ -44,7 +44,7 @@
           {
             title: '年龄',
             key: 'age',
-            renderRow: (h, { row, index }) => {
+            render: (h, { row, index }) => {
               let edit;
 
               // 当前行为聚焦行时
@@ -71,7 +71,7 @@
           {
             title: '出生日期',
             key: 'birthday',
-            renderRow: (h, { row, index }) => {
+            render: (h, { row, index }) => {
               let edit;
 
               // 当前行为聚焦行时
@@ -105,7 +105,7 @@
           {
             title: '地址',
             key: 'address',
-            renderRow: (h, { row, index }) => {
+            render: (h, { row, index }) => {
               let edit;
 
               // 当前行为聚焦行时
@@ -131,7 +131,7 @@
           },
           {
             title: '操作',
-            renderRow: (h, { row, index}) => {
+            render: (h, { row, index}) => {
               // 如果当前行是编辑状态，则渲染两个按钮
               if(this.editIndex === index) {
                 return [
