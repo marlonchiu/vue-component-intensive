@@ -15,6 +15,7 @@
       <router-link to="/chapter-thirteen">实战 6：可用 slot-scope 自定义列的表格组件——Table</router-link>
       <router-link to="/table-render2">实战 6：可用 slot-scope 自定义列的表格组件 —— Table（方案 2）</router-link>
       <router-link to="/table-slot2">实战 6：可用 slot-scope 自定义列的表格组件 —— Table（方案 3）</router-link>
+      <router-link to="/chapter-fourteen">递归组件与动态组件</router-link>
     </div>
     <router-view/>
   </div>
