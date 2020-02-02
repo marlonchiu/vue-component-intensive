@@ -11,6 +11,7 @@
       <router-link to="/chapter-nine">实战 3：动态渲染 .vue 文件的组件—— Display</router-link>
       <router-link to="/chapter-ten">实战 4：全局提示组件——$Alert</router-link>
       <router-link to="/chapter-eleven">更灵活的组件：Render 函数与 Functional Render</router-link>
+      <router-link to="/chapter-twelve">实战 5：可用 Render 自定义列的表格组件——Table</router-link>
     </div>
     <router-view/>
   </div>
