@@ -16,6 +16,7 @@ const tableRender2 = () => import(/* webpackChunkName: "table-render2" */ '../vi
 const tableSlot2 = () => import(/* webpackChunkName: "table-slot2" */ '../views/table-slot2.vue')
 const chapterFourteen = () => import(/* webpackChunkName: "chapter-fourteen" */ '../views/chapter-fourteen.vue')
 const chapterFifteen = () => import(/* webpackChunkName: "chapter-fifteen" */ '../views/chapter-fifteen.vue')
+const chapterSixteen = () => import(/* webpackChunkName: "chapter-sixteen" */ '../views/chapter-sixteen.vue')
 
 Vue.use(VueRouter)
 
@@ -107,6 +108,11 @@ const routes = [
     path: '/chapter-fifteen',
     name: 'chapterFifteen',
     component: chapterFifteen
+  },
+  {
+    path: '/chapter-sixteen',
+    name: 'chapterSixteen',
+    component: chapterSixteen
   }
 ]
 
