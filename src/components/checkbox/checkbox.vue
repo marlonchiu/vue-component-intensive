@@ -39,7 +39,7 @@ export default {
     },
     trueValue: {
       type: [String, Number, Boolean],
-      default: false
+      default: true
     },
     falseValue: {
       type: [String, Number, Boolean],

@@ -55,12 +55,55 @@ function findComponentsDownward (context, componentName) {
 // 由一个组件，找到指定组件的兄弟组件 findBrothersComponents
 function findBrothersComponents (context, componentName, exceptMe = true) {
   console.log(context.$parent.$children)
-  let res = context.$parent.$children.filter(item => {
+  const res = context.$parent.$children.filter(item => {
     return item.$options.name === componentName
   })
-  let index = res.findIndex(item => item._uid === context._uid)
+  const index = res.findIndex(item => item._uid === context._uid)
   if (exceptMe) res.splice(index, 1)
   return res
+}
+
+function typeOf (obj) {
+  const toString = Object.prototype.toString
+  const map = {
+    '[object Boolean]': 'boolean',
+    '[object Number]': 'number',
+    '[object String]': 'string',
+    '[object Function]': 'function',
+    '[object Array]': 'array',
+    '[object Date]': 'date',
+    '[object RegExp]': 'regExp',
+    '[object Undefined]': 'undefined',
+    '[object Null]': 'null',
+    '[object Object]': 'object'
+  }
+
+  return map[toString.call(obj)]
+}
+
+// deepCopy 函数会递归地对数组或对象进行逐一判断，如果某项是数组或对象，再拆分继续判断
+function deepCopy (data) {
+  const t = typeOf(data)
+  let o
+
+  if (t === 'array') {
+    o = []
+  } else if (t === 'object') {
+    o = {}
+  } else {
+    return data
+  }
+
+  if (t === 'array') {
+    for (let i = 0; i < data.length; i++) {
+      o.push(deepCopy(data[i]))
+    }
+  } else if (t === 'object') {
+    for (let i in data) {
+      o[i] = deepCopy(data[i])
+    }
+  }
+  return o
 }
 
 export {
@@ -68,5 +111,6 @@ export {
   findComponentsUpward,
   findComponentDownward,
   findComponentsDownward,
-  findBrothersComponents
+  findBrothersComponents,
+  deepCopy
 }
