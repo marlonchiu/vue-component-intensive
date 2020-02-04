@@ -18,7 +18,8 @@
     <!-- $set 用法-->
     <set-array />
     <set-object />
-
+    <!-- $set 用法-->
+    <computed-set />
 
   </div>
 </template>
@@ -30,6 +31,7 @@ import InputNumberB from '../components/input-number/input-number-b'
 import InputNumberC from '../components/input-number/input-number-c'
 import SetArray from '../components/sixteen/set-array'
 import SetObject from '../components/sixteen/set-object'
+import ComputedSet from '../components/sixteen/computed-set'
 export default {
   name: 'chapterSixteen',
   data() {
@@ -52,7 +54,8 @@ export default {
     InputNumberB,
     InputNumberC,
     SetArray,
-    SetObject
+    SetObject,
+    ComputedSet
   }
 };
 </script>
