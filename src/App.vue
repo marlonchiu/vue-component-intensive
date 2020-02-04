@@ -18,6 +18,7 @@
       <router-link to="/chapter-fourteen">14.递归组件与动态组件</router-link>
       <router-link to="/chapter-fifteen">15.实战 7：树形控件——Tree</router-link>
       <router-link to="/chapter-sixteen">16.拓展：Vue.js 容易忽略的 API 详解</router-link>
+      <router-link to="/chapter-seventeen">17.拓展：Vue.js 面试、常见问题答疑</router-link>
     </div>
     <router-view/>
   </div>
